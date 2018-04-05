@@ -37,10 +37,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Tests\Zhyrova\SeleniumWebDr\.vs\SeleniumWebDr\v15\.suo" />
+    <None Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\App.config" />
+    <None Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
@@ -51,6 +55,46 @@
     <Reference Include="WebDriver.Support, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.Support.3.11.0\lib\net45\WebDriver.Support.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\UsefullMethods.cs" />
+    <Compile Include="Site\LoginPage.cs" />
+    <Compile Include="Site\MainPage.cs" />
+    <Compile Include="Tests\Chepil\testChepil.cs" />
+    <Compile Include="Tests\Gaydayenko\test.cs" />
+    <Compile Include="Tests\Ivchenko\IvchenkoTest_FT_7M.cs" />
+    <Compile Include="Tests\Klymenko\ChromeTest.cs" />
+    <Compile Include="Tests\Lanskix\Start.cs" />
+    <Compile Include="Tests\Matiash\FirstTestMatiash.cs" />
+    <Compile Include="Tests\Muzyka\Test1.cs" />
+    <Compile Include="Tests\myzuka\Class1.cs" />
+    <Compile Include="Tests\Nykonenko\test.cs" />
+    <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
+    <Compile Include="Tests\Tishchenko\Test.cs" />
+    <Compile Include="Tests\Tisna\FirstTestCase.cs" />
+    <Compile Include="Tests\Vantukh\VantukhTests.cs" />
+    <Compile Include="Tests\Zaika\TestClass1.cs" />
+    <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\NUnit.cs" />
+    <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Program.cs" />
+    <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\Zhyrova\SeleniumWebDr\SimpleTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\pom.xml" />
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\BasePage.java" />
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\BigmirLoginPage.java" />
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\BigmirMailBoxPage.java" />
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\GooglePage.java" />
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\GooglePageFound.java" />
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\GoogleQueryPage.java" />
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\tests\GoogleTest.java" />
+    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\tests\LoginTest.java" />
+    <Content Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\MyFirstTest.csproj" />
+    <Content Include="Tests\Zhyrova\SeleniumWebDr\SeleniumWebDr.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\bin\Debug\" />
+    <Folder Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
