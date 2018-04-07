@@ -61,8 +61,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\UsefullMethods.cs" />
+    <Compile Include="Site\42Page.cs" />
+    <Compile Include="Site\AfishaPage.cs" />
+    <Compile Include="Site\AllResoursePage.cs" />
+    <Compile Include="Site\AutoPage.cs" />
+    <Compile Include="Site\av.byPage.cs" />
+    <Compile Include="Site\CinemaPage.cs" />
+    <Compile Include="Site\EpayPage.cs" />
+    <Compile Include="Site\FinancePage.cs" />
+    <Compile Include="Site\Hoster.byPage.cs" />
+    <Compile Include="Site\JobsPage.cs" />
+    <Compile Include="Site\KupiPage.cs" />
+    <Compile Include="Site\LadyPage.cs" />
+    <Compile Include="Site\MailPage.cs" />
+    <Compile Include="Site\MapsPage.cs" />
+    <Compile Include="Site\NewsPage.cs" />
+    <Compile Include="Site\ProbusinessPage.cs" />
+    <Compile Include="Site\RealtyPage.cs" />
+    <Compile Include="Site\Rebenok.byPage.cs" />
+    <Compile Include="Site\SearchPage.cs" />
+    <Compile Include="Site\SportPage.cs" />
+    <Compile Include="Site\TalksPage.cs" />
+    <Compile Include="Site\TAM.BYPage.cs" />
     <Compile Include="Site\LoginPage.cs" />
     <Compile Include="Site\MainPage.cs" />
+    <Compile Include="Site\TVsetPage.cs" />
+    <Compile Include="Site\WeatherPage.cs" />
+    <Compile Include="Site\YouCanHelpPage.cs" />
     <Compile Include="Tests\Chepil\testChepil.cs" />
     <Compile Include="Tests\Gaydayenko\test.cs" />
     <Compile Include="Tests\Ivchenko\IvchenkoTest_FT_7M.cs" />
