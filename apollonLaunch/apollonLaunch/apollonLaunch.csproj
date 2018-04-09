@@ -95,7 +95,7 @@
     <Compile Include="Tests\Matiash\FirstTestMatiash.cs" />
     <Compile Include="Tests\Muzyka\MuzykaTestFT10M.cs" />
     <Compile Include="Tests\Nykonenko\FT_5M.cs" />
-    <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
+    <Compile Include="Tests\Skuratovskyi\FT_8M.cs" />
     <Compile Include="Tests\Tishchenko\Test.cs" />
     <Compile Include="Tests\Tisna\FirstTestCase.cs" />
     <Compile Include="Tests\Tisna\FT_12M.cs" />
