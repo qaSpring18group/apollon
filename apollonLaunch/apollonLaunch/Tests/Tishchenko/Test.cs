@@ -11,8 +11,7 @@ namespace apollonLaunch
     public class Test
     {
         private IWebDriver driver;
-        private WebDriverWait wait;
-
+        
         [SetUp]
         public void SetUp()
         {
@@ -30,9 +29,10 @@ namespace apollonLaunch
             driver.FindElement(By.XPath(mp.headerResourses)).Click();
             driver.FindElement(By.XPath(mp.resourseCinema)).Click();
             driver.FindElement(By.XPath(cp.TitlePage));
+            Assert.That(driver, Is.True);
             driver.FindElement(By.XPath(cp.BackToMainPage)).Click();
         }
-       //[Quit]
+        [TearDown]
         public void TearDown()
         {
             driver.Quit();
