@@ -41,7 +41,9 @@ namespace apollonLaunch
             
             driver.FindElement(By.XPath(lp.GoogleInputPassword)).SendKeys(password);
             driver.FindElement(By.XPath(lp.SubmitPassword)).Click();
-            IWebElement UserName= wait.Until(ExpectedConditions.ElementExists(By.XPath(lp.UserNameInLoginWindow)));
+#pragma warning disable CS0618 // Тип или член устарел
+            IWebElement UserName = wait.Until(ExpectedConditions.ElementExists(By.XPath(lp.UserNameInLoginWindow)));
+#pragma warning restore CS0618 // Тип или член устарел
             StringAssert.AreEqualIgnoringCase(username,UserName.Text,"Ошибка входа на сайт");
 
         }
