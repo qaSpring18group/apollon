@@ -52,17 +52,42 @@
       <HintPath>..\..\..\NUnit.Framework-3.10.1\bin\net40\nunit.testdata.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
-    <Reference Include="WebDriver, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.WebDriver.3.11.0\lib\net45\WebDriver.dll</HintPath>
+    <Reference Include="WebDriver, Version=3.11.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.11.1\lib\net45\WebDriver.dll</HintPath>
     </Reference>
-    <Reference Include="WebDriver.Support, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.Support.3.11.0\lib\net45\WebDriver.Support.dll</HintPath>
+    <Reference Include="WebDriver.Support, Version=3.11.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.11.1\lib\net45\WebDriver.Support.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\UsefullMethods.cs" />
+    <Compile Include="Site\42Page.cs" />
+    <Compile Include="Site\AfishaPage.cs" />
+    <Compile Include="Site\AllResoursePage.cs" />
+    <Compile Include="Site\AutoPage.cs" />
+    <Compile Include="Site\av.byPage.cs" />
+    <Compile Include="Site\CinemaPage.cs" />
+    <Compile Include="Site\EpayPage.cs" />
+    <Compile Include="Site\FinancePage.cs" />
+    <Compile Include="Site\Hoster.byPage.cs" />
+    <Compile Include="Site\JobsPage.cs" />
+    <Compile Include="Site\KupiPage.cs" />
+    <Compile Include="Site\LadyPage.cs" />
+    <Compile Include="Site\MailPage.cs" />
+    <Compile Include="Site\MapsPage.cs" />
+    <Compile Include="Site\NewsPage.cs" />
+    <Compile Include="Site\ProbusinessPage.cs" />
+    <Compile Include="Site\RealtyPage.cs" />
+    <Compile Include="Site\Rebenok.byPage.cs" />
+    <Compile Include="Site\SearchPage.cs" />
+    <Compile Include="Site\SportPage.cs" />
+    <Compile Include="Site\TalksPage.cs" />
+    <Compile Include="Site\TAM.BYPage.cs" />
     <Compile Include="Site\LoginPage.cs" />
     <Compile Include="Site\MainPage.cs" />
+    <Compile Include="Site\TVsetPage.cs" />
+    <Compile Include="Site\WeatherPage.cs" />
+    <Compile Include="Site\YouCanHelpPage.cs" />
     <Compile Include="Tests\Chepil\testChepil.cs" />
     <Compile Include="Tests\Gaydayenko\test.cs" />
     <Compile Include="Tests\Ivchenko\IvchenkoTest_FT_7M.cs" />
@@ -101,6 +126,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
