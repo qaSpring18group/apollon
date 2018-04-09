@@ -94,7 +94,7 @@
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
     <Compile Include="Tests\Lanskix\Start.cs" />
     <Compile Include="Tests\Matiash\FirstTestMatiash.cs" />
-    <Compile Include="Tests\Muzyka\Test1.cs" />
+    <Compile Include="Tests\Muzyka\MuzykaTestFT_10M.cs" />
     <Compile Include="Tests\myzuka\Class1.cs" />
     <Compile Include="Tests\Nykonenko\FT_5M.cs" />
     <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
