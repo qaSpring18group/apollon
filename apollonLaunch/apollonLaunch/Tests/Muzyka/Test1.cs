@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace apollonLaunch
+namespace Pool_5.Tests.Muzyka
 {
-    class Class1
+    class FirstTest
     {
+
     }
 }
