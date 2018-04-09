@@ -99,7 +99,7 @@
     <Compile Include="Tests\Tishchenko\Test.cs" />
     <Compile Include="Tests\Tisna\FirstTestCase.cs" />
     <Compile Include="Tests\Vantukh\VantukhTests.cs" />
-    <Compile Include="Tests\Zaika\TestClass1.cs" />
+    <Compile Include="Tests\Zaika\FT_4M.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\NUnit.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Program.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Properties\AssemblyInfo.cs" />
