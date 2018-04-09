@@ -16,6 +16,6 @@ namespace apollonLaunch
         internal string headerShops = "//*[@id='mainmenu']/ul/li[9]/a";
         internal string headerAutorize = "//*[@id='authorize']/div/a";
         internal string resourseCinema = "//*[@id='mainmenu']/div/div/div/div/ul[2]/li[15]/a";
-        internal string MainPageButtonResourse = "//*[@id='mainmenu']/ul/li[2]/a ";      // 
+        
     }
 }

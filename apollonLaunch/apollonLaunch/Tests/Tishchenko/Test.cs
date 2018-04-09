@@ -19,8 +19,7 @@ namespace apollonLaunch
         public void SetUp()
         {
             driver = new ChromeDriver();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(4));
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(4);
         }
 
         [TestCase]
@@ -32,9 +31,9 @@ namespace apollonLaunch
             driver.Url = UsefullMethods.OpenTytbySite;
             driver.FindElement(By.XPath(mp.headerResourses)).Click();
             driver.FindElement(By.XPath(mp.resourseCinema)).Click();
-            IWebElement TitleText = wait.Until(ExpectedConditions.ElementExists(By.XPath(cp.TitlePage)));
-            string str = TitleText.Text;
-            StringAssert.AreEqualIgnoringCase(cp.TitlePage, TitleText.Text, "Ошибка");
+            driver.FindElement(By.XPath(cp.TitlePage));
+            driver.FindElement(By.XPath(cp.BackToMainPage)).Click();
+            
         }
 
 
