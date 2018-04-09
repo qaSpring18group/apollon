@@ -21,7 +21,7 @@ namespace MyFirstTest
         public void TestNunit()
 
         {
-            webDriwer.Navigate().GoToUrl("https://www.google.com.ua");
+            //webDriwer.Navigate().GoToUrl("https://www.google.com.ua");
             //  var lnkSupportUs=webDriwer.FindElement(By.CssSelector(""))
             webDriwer.Manage().Window.Maximize();
             webDriwer.FindElement(By.Id("lst-ib")).SendKeys("Автотесты");
