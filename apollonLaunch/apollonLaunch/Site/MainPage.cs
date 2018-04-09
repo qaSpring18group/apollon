@@ -24,6 +24,7 @@ namespace apollonLaunch
         internal string headerAutorize = "//*[@id='authorize']/div/a";
 
 
+
         internal string resourceFinance = "//*[@class='b-topbar-more-list']/li[4]/a";
         // internal string CloseheaderResourses;
         // internal string hosterbyelement;
@@ -39,6 +40,8 @@ namespace apollonLaunch
 		internal string uCanHelpHim = "//*[@id='mainmenu']/div/div/div/div/ul[1]/li[6]/a";
 		internal string uCanHelpHimElement = "//*[@id='header']/h1/a";
 
+
+		internal string uCanHelpHim = "//*[@id='mainmenu']/div/div/div/div/ul[1]/li[6]/a";
         internal string SECTION = "//div[@id='mainmenu']//ul//li[@class='topbar__li b-topbar-aside']//a[@class='topbar-burger']";
         internal string WEATHER = "//div[@id='mainmenu']//div[@class='topbarmore-i']//ul//li[@class='topbar__li']//a[@title='Погода']";
         internal string LOGOTOHOME = "//div[@class='outer']//div[@class='logo']//img[@src='https://img.tyt.by/i/logo.png']";
