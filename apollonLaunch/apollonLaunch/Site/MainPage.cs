@@ -1,8 +1,10 @@
 ﻿using System;
 
 namespace apollonLaunch
-{
-    public class MainPage
+{ 
+
+    
+        public class MainPage
     {
         internal string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";       //  //a[@class='topbar-burger']//span
         internal string headerGoeTag = "//*[@id='geotarget_top_selector']";
