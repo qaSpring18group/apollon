@@ -73,7 +73,6 @@
     <Compile Include="Site\JobsPage.cs" />
     <Compile Include="Site\KupiPage.cs" />
     <Compile Include="Site\LadyPage.cs" />
-    <Compile Include="Site\MailPage.cs" />
     <Compile Include="Site\MapsPage.cs" />
     <Compile Include="Site\NewsPage.cs" />
     <Compile Include="Site\ProbusinessPage.cs" />
@@ -94,8 +93,7 @@
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
     <Compile Include="Tests\Lanskix\Start.cs" />
     <Compile Include="Tests\Matiash\FirstTestMatiash.cs" />
-    <Compile Include="Tests\Muzyka\MuzykaTestFT_10M.cs" />
-    <Compile Include="Tests\myzuka\Class1.cs" />
+    <Compile Include="Tests\Muzyka\MuzykaTestFT10M.cs" />
     <Compile Include="Tests\Nykonenko\FT_5M.cs" />
     <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
     <Compile Include="Tests\Tishchenko\Test.cs" />

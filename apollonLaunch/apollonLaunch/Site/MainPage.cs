@@ -19,5 +19,6 @@ namespace apollonLaunch
         internal string headerTVset = "//*[@id='mainmenu']/ul/li[8]/a";
         internal string headerShops = "//*[@id='mainmenu']/ul/li[9]/a";
         internal string headerAutorize = "//*[@id='authorize']/div/a";
+        internal string CloseheaderResourses;
     }
 }
