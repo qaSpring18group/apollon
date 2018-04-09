@@ -8,7 +8,7 @@ namespace apollonLaunch
 {
     public class MainPage
     {
-        internal string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";       //  //a[contains(.,'Разделы')] - находит 2 елемента
+        internal string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";    //a[@class='topbar-burger']//span     //a[contains(.,'Разделы')] - находит 2 елемента
         internal string hosterby = "//*[@class='b-topbar-more-aside']/li[3]/a";
         internal string hosterbyelement = "//*[@class='tCell middle']/label";
         internal string CloseheaderResourses = "//*[@class='topbar-close__text']";
@@ -28,5 +28,10 @@ namespace apollonLaunch
         internal string resourseCinema;
 		internal string uCanHelpHim = "//*[@id='mainmenu']/div/div/div/div/ul[1]/li[6]/a";
 		internal string uCanHelpHimElement = "//*[@id='header']/h1/a";
+        internal string SECTION = "//div[@id='mainmenu']//ul//li[@class='topbar__li b-topbar-aside']//a[@class='topbar-burger']";
+        internal string WEATHER = "//div[@id='mainmenu']//div[@class='topbarmore-i']//ul//li[@class='topbar__li']//a[@title='Погода']";
+        internal string LOGOTOHOME = "//div[@class='outer']//div[@class='logo']//img[@src='https://img.tyt.by/i/logo.png']";
+        internal string UNDROPPEDSECTION = "//div[@id='mainmenu']//a[@class='topbar-burger']";
+        internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]/a";
     }
 }
