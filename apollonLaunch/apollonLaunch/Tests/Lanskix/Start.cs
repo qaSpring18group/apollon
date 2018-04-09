@@ -8,6 +8,7 @@ using OpenQA.Selenium.Support;
 using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using apollonLaunch;
 
 namespace apollonLaunch
 
@@ -15,7 +16,7 @@ namespace apollonLaunch
 
     [TestFixture]
 
-    class Start
+    class Pt
     {
         private ChromeDriver chrome;
         [SetUp]
@@ -25,17 +26,19 @@ namespace apollonLaunch
             chrome.Manage().Window.Maximize();
         }
         [Test]
-        public void Start.links()
+        public void Pt_test()
+        {
+            MainPage mp = new MainPage();
+            chrome.Url = UsefullMethods.OpenTytbySite;
         }
-          MainPage mp = new MainPage()
-         = UsefullMethods.Start
+
+    }
 }
-    
- }               
+                
            // chrome
         //    chrome.FindElement(By.XPath.main);
         
-    }
+    
         
     
 
