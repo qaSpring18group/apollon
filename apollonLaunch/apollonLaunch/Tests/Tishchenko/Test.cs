@@ -32,7 +32,7 @@ namespace apollonLaunch
             driver.FindElement(By.XPath(cp.TitlePage));
             driver.FindElement(By.XPath(cp.BackToMainPage)).Click();
         }
-        [Quit]
+       //[Quit]
         public void TearDown()
         {
             driver.Quit();

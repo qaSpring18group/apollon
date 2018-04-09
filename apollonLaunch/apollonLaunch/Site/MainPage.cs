@@ -20,5 +20,8 @@ namespace apollonLaunch
         internal string headerShops = "//*[@id='mainmenu']/ul/li[9]/a";
         internal string headerAutorize = "//*[@id='authorize']/div/a";
         internal string CloseheaderResourses;
+        internal string hosterbyelement;
+        internal string hosterby;
+        internal string resourseCinema;
     }
 }
