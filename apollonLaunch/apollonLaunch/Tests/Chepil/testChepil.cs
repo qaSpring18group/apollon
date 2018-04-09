@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QA_Pool_5.Pool_5.Tests.Chepil
+namespace apollonLaunch
 {
 
     class Program
