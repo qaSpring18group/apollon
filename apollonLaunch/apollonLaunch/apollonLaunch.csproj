@@ -69,7 +69,7 @@
     <Compile Include="Site\CinemaPage.cs" />
     <Compile Include="Site\EpayPage.cs" />
     <Compile Include="Site\FinancePage.cs" />
-    <Compile Include="Site\Hoster.byPage.cs" />
+    <Compile Include="Site\HosterbyPage.cs" />
     <Compile Include="Site\JobsPage.cs" />
     <Compile Include="Site\KupiPage.cs" />
     <Compile Include="Site\LadyPage.cs" />

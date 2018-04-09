@@ -1,12 +1,10 @@
 ﻿using System;
 
-namespace apollonLaunch.Site
+namespace apollonLaunch
 {
-    class Hoster
+    public class Hoster
     {
-        /*Example:
-           internal string NAME OF Xpath= "//X Path";
-           Show more examples in Stie>LoginPage/ MainPage/ CinemaPage
-        */
+        internal string hosterby = "//*[@class='b-topbar-more-aside']/li[3]/a";
+        internal string hosterbyelement = "//*[@class='tCell middle']/label";
     }
 }
