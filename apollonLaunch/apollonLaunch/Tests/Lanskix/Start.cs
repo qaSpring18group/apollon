@@ -3,37 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NUnit;
+using System.IO;
+using Open.QA.Selenium;
 using NUnit.Framework;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace apollonLaunch
-
+namespace PooL_5
 { 
-
     [TestClass]
 
-      class Start
+  public class Start
     {
-        [Test]
-        public void Virtual()
-        {
-            ChromeDriver chrome = new ChromeDriver();
-        }
-        
-        
-        
-        }
-           
-                
-           // chrome
-        //    chrome.FindElement(By.XPath.main);
-        
-    }
-        
-    
+        [TestMethod]
+        public void TestStarter();
 
-    
-        
-  
+                 
+             
+         }
+    }
+
