@@ -8,7 +8,7 @@ namespace apollonLaunch
 {
     public class MainPage
     {
-        internal string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";       //  //a[contains(.,'Разделы')] - находит 2 елемента
+        internal string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";    //a[@class='topbar-burger']//span     //a[contains(.,'Разделы')] - находит 2 елемента
         internal string hosterby = "//*[@class='b-topbar-more-aside']/li[3]/a";
         internal string hosterbyelement = "//*[@class='tCell middle']/label";
         internal string CloseheaderResourses = "//*[@class='topbar-close__text']";
@@ -22,6 +22,7 @@ namespace apollonLaunch
         internal string headerTVset = "//*[@id='mainmenu']/ul/li[8]/a";
         internal string headerShops = "//*[@id='mainmenu']/ul/li[9]/a";
         internal string headerAutorize = "//*[@id='authorize']/div/a";
-        internal string CloseheaderResourses;
+        internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]/a";
+        
     }
 }
