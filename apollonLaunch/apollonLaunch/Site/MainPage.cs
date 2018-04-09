@@ -22,10 +22,17 @@ namespace apollonLaunch
         internal string headerTVset = "//*[@id='mainmenu']/ul/li[8]/a";
         internal string headerShops = "//*[@id='mainmenu']/ul/li[9]/a";
         internal string headerAutorize = "//*[@id='authorize']/div/a";
+<<<<<<< HEAD
         internal string resourceFinance = "//*[@class='b-topbar-more-list']/li[4]/a";
         // internal string CloseheaderResourses;
         // internal string hosterbyelement;
         // internal string hosterby;
+=======
+>>>>>>> 5e62716d66999a70310c5ceff2774844342c701a
         internal string resourseCinema;
+        internal string SECTION = "//div[@id='mainmenu']//ul//li[@class='topbar__li b-topbar-aside']//a[@class='topbar-burger']";
+        internal string WEATHER = "//div[@id='mainmenu']//div[@class='topbarmore-i']//ul//li[@class='topbar__li']//a[@title='Погода']";
+        internal string LOGOTOHOME = "//div[@class='outer']//div[@class='logo']//img[@src='https://img.tyt.by/i/logo.png']";
+        internal string UNDROPPEDSECTION = "//div[@id='mainmenu']//a[@class='topbar-burger']";
     }
 }
