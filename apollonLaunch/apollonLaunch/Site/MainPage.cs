@@ -9,6 +9,9 @@ namespace apollonLaunch
     public class MainPage
     {
         internal string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";       //  //a[contains(.,'Разделы')] - находит 2 елемента
+        internal string hosterby = "//*[@class='b-topbar-more-aside']/li[3]/a";
+        internal string hosterbyelement = "//*[@class='tCell middle']/label";
+        internal string CloseheaderResourses = "//*[@class='topbar-close__text']";
         internal string headerGoeTag = "//*[@id='geotarget_top_selector']";
         internal string headerEmail = "//*[@id='mainmenu']/ul/li[3]/a";           // //a[contains(.,'Почта')] - находит 2 елемеента
         internal string headerFinance = "//*[@id='mainmenu']/ul/li[4]/a[1]";
