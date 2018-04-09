@@ -98,6 +98,7 @@
     <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
     <Compile Include="Tests\Tishchenko\Test.cs" />
     <Compile Include="Tests\Tisna\FirstTestCase.cs" />
+    <Compile Include="Tests\Tisna\FT_12M.cs" />
     <Compile Include="Tests\Vantukh\VantukhTests.cs" />
     <Compile Include="Tests\Zaika\TestClass1.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\NUnit.cs" />

@@ -1,12 +1,10 @@
 ﻿using System;
 
-namespace apollonLaunch.Site
+namespace apollonLaunch
 {
-    class FinancePage
+    public class FinancePage
     {
-        /*Example:
-           internal string NAME OF Xpath= "//X Path";
-           Show more examples in Stie>LoginPage/ MainPage/ CinemaPage
-        */
+        internal string asideMenu = "//*[@class='col-1']";
+        internal string returnToMainPage = "//*[@id='mainmenu']/ul/li[2]/a";
     }
 }
