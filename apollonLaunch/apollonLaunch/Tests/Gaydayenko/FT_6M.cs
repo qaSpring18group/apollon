@@ -15,7 +15,7 @@ namespace apollonLaunch
     public class FT_6M_Gaydayenko
 
     {
-        private const string XpathMainMenu = "//*[@id='mainmenu']/ul/li[1]/a[contains (text(), 'Разделы')]";
+        //private const string XpathMainMenu = "//*[@id='mainmenu']/ul/li[1]/a[contains (text(), 'Разделы')]";
         private const string XpathToSite = "//a[contains(text(),'Rebenok.by')]";
 
         [TestMethod]
@@ -23,14 +23,14 @@ namespace apollonLaunch
         public void TestMethod1()
         {
             IWebDriver browser;
+            MainPage mainPage = new MainPage();
 
             browser = new OpenQA.Selenium.Chrome.ChromeDriver();
-
             browser.Manage().Window.Maximize();
 
             browser.Url= "https://tut.by";
 
-            IWebElement searchLink = browser.FindElement(By.XPath(XpathMainMenu));
+            IWebElement searchLink = browser.FindElement(By.XPath(mainPage.headerResourses));
 
             searchLink.Click();
 
