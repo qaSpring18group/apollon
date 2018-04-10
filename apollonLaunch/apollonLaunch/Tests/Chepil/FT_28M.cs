@@ -6,7 +6,6 @@ using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using apollonLaunch;
-using NUnit3TestAdapter;
 
 namespace apollonLaunch
 
