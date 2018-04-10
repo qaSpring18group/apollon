@@ -1,4 +1,4 @@
-using System.Text;
+ï»¿using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Support;
@@ -7,13 +7,14 @@ using OpenQA.Selenium.Chrome;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using apollonLaunch;
 
+
 namespace apollonLaunch
 
 {
 
     [TestFixture]
 
-    class chepil
+    class FT_28M
     {
         private ChromeDriver chrome;
         [SetUp]
@@ -23,15 +24,14 @@ namespace apollonLaunch
             chrome.Manage().Window.Maximize();
         }
         [Test]
-        public void FT_28M()
+        public void FT_28M_test()
         {
             MainPage mp = new MainPage();
             chrome.Url = UsefullMethods.OpenTytbySite;
             chrome.FindElementByXPath(mp.headerResourses).Click();
             chrome.FindElementByXPath(mp.headerGoeTag).Click();
             chrome.FindElementByXPath(mp.popUpGeoTagSityTDMinskDistCherven).Click();
-            chrome.FindElementByXPath(mp.popUpGeoTagCherven).Equals("×åðâåíü");
-
+            chrome.FindElementByXPath(mp.popUpGeoTagCherven).Equals(mp.popUpGeoTagChervenString);
         }
         [TestCleanup]
         public void CloseBrowser()

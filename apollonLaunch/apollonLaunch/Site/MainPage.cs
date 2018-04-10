@@ -57,5 +57,7 @@ namespace apollonLaunch
         internal string popUpGeoTagSityTDMinskDistMinsk = "//*[@id='gtgt15800']/a";
         internal string popUpGeoTagSityTDMinskDistBorisov = "//*[@id='gtgt21059']/a";
         internal string popUpGeoTagSityTDMinskDistCherven = "//*[@id='gtgt20860']/a";
+
+         internal string popUpGeoTagChervenString =  "Червень";
     }
 }
