@@ -32,11 +32,11 @@ namespace apollonLaunch.Tests.Tisna
             Assert.IsTrue(FinElement.Displayed);
             webDriver.FindElement(By.XPath(financePage.returnToMainPage)).Click();
             webDriver.FindElement(By.XPath(mainPage.headerResourses)).Click();
-        }
-        [TearDown]
-        public void TearDown()
-        {
-            webDriver.Quit();
-        }
+            }
+            [TearDown]
+            public void TearDown()
+            {
+                webDriver.Quit();
+            }
     }
 }
