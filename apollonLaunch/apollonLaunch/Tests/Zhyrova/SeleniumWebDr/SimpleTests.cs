@@ -39,7 +39,9 @@ namespace SimpleTests
             driver.Url = "https://www.google.com.ua/";
             driver.FindElement(By.XPath("//input[@id='lst-ib']")).SendKeys("автотесты" + Keys.Enter);
             driver.FindElement(By.PartialLinkText("Заметки Автоматизатора")).Click();
+#pragma warning disable CS0618 // Тип или член устарел
             IWebElement posttitle = wait.Until(ExpectedConditions.ElementExists(By.XPath("//*[@class='post-title']")));
+#pragma warning restore CS0618 // Тип или член устарел
             string str = posttitle.Text;
             StringAssert.AreEqualIgnoringCase("Как писать автотесты быстро", posttitle.Text,"Ошибка текста");
 
