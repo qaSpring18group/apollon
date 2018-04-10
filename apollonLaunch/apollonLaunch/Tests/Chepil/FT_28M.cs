@@ -24,7 +24,7 @@ namespace apollonLaunch
             chrome.Manage().Window.Maximize();
         }
         [Test]
-        public void chepilTest()
+        public void FT_28M()
         {
             MainPage mp = new MainPage();
             chrome.Url = UsefullMethods.OpenTytbySite;
