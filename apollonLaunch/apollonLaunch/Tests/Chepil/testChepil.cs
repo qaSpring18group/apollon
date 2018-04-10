@@ -31,8 +31,7 @@ namespace apollonLaunch
             chrome.FindElementByXPath(mp.headerResourses).Click();
             chrome.FindElementByXPath(mp.headerGoeTag).Click();
             chrome.FindElementByXPath(mp.popUpGeoTagSityTDMinskDistCherven).Click();
-            chrome.FindElementByXPath(mp.popUpGeoTagCherven).Equals("×åðâåíü");
-
+            chrome.FindElementByXPath(mp.popUpGeoTagCherven).Equals(mp.popUpGeoTagChervenString);
         }
         [TestCleanup]
         public void CloseBrowser()
