@@ -6,12 +6,12 @@ using System.Reflection;
 
 namespace AutoTest
 {
-    class ChromeTest
+    class FT_23M
     {
         IWebDriver driver;
 
         [SetUp]
-        public void Start()
+        public void FT_23M_test()
         {
             driver = new ChromeDriver("D:\\chromedriver_win32");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
