@@ -45,5 +45,17 @@ namespace apollonLaunch
         internal string LOGOTOHOME = "//div[@class='outer']//div[@class='logo']//img[@src='https://img.tyt.by/i/logo.png']";
         internal string UNDROPPEDSECTION = "//div[@id='mainmenu']//a[@class='topbar-burger']";
         internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]/a";
+
+
+        //geoTag
+        internal string popUpGeoTagCherven = "//*[@id='geotarget_top_selector']/span/span";
+        internal string popUpGeoTag = "//*[@id='geoselector']/div";
+        internal string popUpGeoTagModalHeader = "//*[@id='geoselector']/div/div/div[1]";
+        internal string opUpGeoTagModalHeaderText = "//*[@id='geoselector']/div/div/div[1]/div/p";
+        internal string popUpGeoTagSityTable = "//*[@id='geoselector']/div/div/div[3]/div/table";
+        internal string popUpGeoTagSityTDMinskDist = "//*[@id='geoselector']/div/div/div[3]/div/table/tbody/tr/td[1]/div";
+        internal string popUpGeoTagSityTDMinskDistMinsk = "//*[@id='gtgt15800']/a";
+        internal string popUpGeoTagSityTDMinskDistBorisov = "//*[@id='gtgt21059']/a";
+        internal string popUpGeoTagSityTDMinskDistCherven = "//*[@id='gtgt20860']/a";
     }
 }
