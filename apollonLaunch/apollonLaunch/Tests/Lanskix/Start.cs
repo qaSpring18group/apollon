@@ -30,7 +30,10 @@ namespace apollonLaunch
         {
             MainPage mp = new MainPage();
             chrome.Url = UsefullMethods.OpenTytbySite;
+            chrome.FindElementByXPath(mp.headerWeather).Click();
+
         }
+        
 
     }
 }
