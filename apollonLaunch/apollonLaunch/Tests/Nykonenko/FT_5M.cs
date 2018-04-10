@@ -22,11 +22,12 @@ namespace apollonLaunch.Tests.Nykonenko
         public void FT_5M_test()
         {
             MainPage mp = new MainPage();
+            Hoster hbp = new Hoster();
             webDriver.Url = UsefullMethods.OpenTytbySite;
             webDriver.FindElement(By.XPath(mp.headerResourses)).Click();
-            webDriver.FindElement(By.XPath(mp.hosterby)).Click();
+            webDriver.FindElement(By.XPath(hbp.hosterby)).Click();
             webDriver.SwitchTo().Window(webDriver.WindowHandles.Last());
-            IWebElement HosterbyElement = webDriver.FindElement(By.XPath(mp.hosterbyelement));
+            IWebElement HosterbyElement = webDriver.FindElement(By.XPath(hbp.hosterbyelement));
             Assert.IsTrue(HosterbyElement.Displayed);
             webDriver.SwitchTo().Window(webDriver.WindowHandles[0]);
             webDriver.FindElement(By.XPath(mp.CloseheaderResourses)).Click();

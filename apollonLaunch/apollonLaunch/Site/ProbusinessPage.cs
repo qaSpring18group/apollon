@@ -1,13 +1,10 @@
 ﻿using System;
 
 
-namespace apollonLaunch.Site
+namespace apollonLaunch
 {
-    class Class1
+    class ProbusinessPage
     {
-        /*Example:
-           internal string NAME OF Xpath= "//X Path";
-           Show more examples in Stie>LoginPage/ MainPage/ CinemaPage
-        */
+        internal string externalProbusiness = "//ul[@class='b-topbar-more-aside']/li[2]/a";
     }
 }
