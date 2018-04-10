@@ -1,11 +1,13 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
+using System;
 
-namespace Pool_5
+namespace apollonLauncher
 {
     [TestFixture]
-    public class AutotestTUTBY
+    class AutotestTUTBY
     {        
         private static IWebDriver _driver = new ChromeDriver();
 
