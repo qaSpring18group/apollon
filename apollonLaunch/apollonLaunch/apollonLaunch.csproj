@@ -88,7 +88,7 @@
     <Compile Include="Site\WeatherPage.cs" />
     <Compile Include="Site\YouCanHelpPage.cs" />
     <Compile Include="Tests\Chepil\testChepil.cs" />
-    <Compile Include="Tests\Gaydayenko\test.cs" />
+    <Compile Include="Tests\Gaydayenko\FT_6M.cs" />
     <Compile Include="Tests\Ivchenko\IvchenkoTest_FT_7M.cs" />
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
     <Compile Include="Tests\Lanskix\Start.cs" />
