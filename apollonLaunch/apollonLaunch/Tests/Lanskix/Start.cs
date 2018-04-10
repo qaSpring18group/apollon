@@ -30,10 +30,7 @@ namespace apollonLaunch
             MainPage mp = new MainPage();
             chrome.Url = UsefullMethods.OpenTytbySite;
             WebDriverWait wait = new WebDriverWait(chrome, new TimeSpan(0, 0, 5));
-            
-            
-
-            
+            //chrome.FindElementByXPath(mp.)           
         }
 
     
