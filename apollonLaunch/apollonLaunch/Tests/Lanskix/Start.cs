@@ -23,16 +23,26 @@ namespace apollonLaunch
         public void SetUp()
         {
             chrome = new ChromeDriver();
-            chrome.Manage().Window.Maximize();
         }
         [Test]
         public void Pt_test()
         {
             MainPage mp = new MainPage();
             chrome.Url = UsefullMethods.OpenTytbySite;
+            WebDriverWait wait = new WebDriverWait(chrome, new TimeSpan(0, 0, 5));
+            
+            
+
+            
         }
 
+    
+    [TearDown]
+    public void TearDown()
+    {
+        chrome.Quit();
     }
+}
 }
                 
            // chrome
