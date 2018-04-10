@@ -14,7 +14,7 @@ namespace apollonLaunch
 
     [TestFixture]
 
-    class chepil
+    class FT_28M
     {
         private ChromeDriver chrome;
         [SetUp]
@@ -24,7 +24,7 @@ namespace apollonLaunch
             chrome.Manage().Window.Maximize();
         }
         [Test]
-        public void chepilTest()
+        public void FT_28M_test()
         {
             MainPage mp = new MainPage();
             chrome.Url = UsefullMethods.OpenTytbySite;
