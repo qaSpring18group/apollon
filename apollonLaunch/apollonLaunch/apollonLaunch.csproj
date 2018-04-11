@@ -78,7 +78,7 @@
     <Compile Include="Site\SearchPage.cs" />
     <Compile Include="Site\SportPage.cs" />
     <Compile Include="Site\TalksPage.cs" />
-    <Compile Include="Site\TAM.BYPage.cs" />
+    <Compile Include="Site\TamByPage.cs" />
     <Compile Include="Site\LoginPage.cs" />
     <Compile Include="Site\MainPage.cs" />
     <Compile Include="Site\TVsetPage.cs" />
@@ -88,6 +88,7 @@
     <Compile Include="Tests\Gaydayenko\FT_6M.cs" />
     <Compile Include="Tests\Ivchenko\FT_7M.cs" />
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
+    <Compile Include="Tests\Klymenko\FT_3MK.cs" />
     <Compile Include="Tests\Kovalenko\FT_13M.cs" />
     <Compile Include="Tests\Lanskix\Start.cs" />
     <Compile Include="Tests\Matiash\FirstTestMatiash.cs" />
