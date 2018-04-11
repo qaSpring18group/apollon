@@ -62,7 +62,7 @@
     <Compile Include="Site\AfishaPage.cs" />
     <Compile Include="Site\AllResoursePage.cs" />
     <Compile Include="Site\AutoPage.cs" />
-    <Compile Include="Site\av.byPage.cs" />
+    <Compile Include="Site\AvByPage.cs" />
     <Compile Include="Site\CinemaPage.cs" />
     <Compile Include="Site\EpayPage.cs" />
     <Compile Include="Site\FinancePage.cs" />
@@ -86,6 +86,7 @@
     <Compile Include="Site\YouCanHelpPage.cs" />
     <Compile Include="Tests\Chepil\testChepil.cs" />
     <Compile Include="Tests\Gaydayenko\FT_6M.cs" />
+    <Compile Include="Tests\Ivchenko\FT_7M.cs" />
     <Compile Include="Tests\Ivchenko\IvchenkoTest_FT_7M.cs" />
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
     <Compile Include="Tests\Kovalenko\FT_13M.cs" />
