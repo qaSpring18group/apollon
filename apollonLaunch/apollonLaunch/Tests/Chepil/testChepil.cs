@@ -1,27 +1,41 @@
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+ï»¿using System.Text;
 using System.Threading.Tasks;
+using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Support;
+using NUnit.Framework;
+using OpenQA.Selenium.Chrome;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using apollonLaunch;
 
-namespace QA_Pool_5.Pool_5.Tests.Chepil
+
+namespace apollonLaunch
+
 {
 
-    class Program
+    [TestFixture]
+
+    class FT_28M
     {
-        static void Main(string[] args)
+        private ChromeDriver chrome;
+        [SetUp]
+        public void SetUp()
         {
-            string resource = "//*[@id='mainmenu']/ul/li[1]/a/text()";
-            string url = "https://www.tut.by";
-            string compare = "Ðàçäåëû";
-            //selenium
-            IWebDriver driver = new ChromeDriver();
-            driver.Manage().Window.Maximize();
-            driver.Url = url;
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            driver.FindElement(By.XPath(resource)).Click();
+            chrome = new ChromeDriver();
+            chrome.Manage().Window.Maximize();
+        }
+        [Test]
+        public void FT_28M_test()
+        {
+            MainPage mp = new MainPage();
+            chrome.Url = UsefullMethods.OpenTytbySite;
+            chrome.FindElementByXPath(mp.headerGoeTag).Click();
+            chrome.FindElementByXPath(mp.popUpGeoTagSityTDMinskDistCherven).Click();
+            chrome.FindElementByXPath(mp.popUpGeoTagCherven).Equals(mp.popUpGeoTagChervenString);
+        }
+        [TestCleanup]
+        public void CloseBrowser()
+        {
+            chrome.Close();
         }
 
     }
