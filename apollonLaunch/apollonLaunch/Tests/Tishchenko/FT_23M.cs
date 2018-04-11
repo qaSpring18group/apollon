@@ -11,7 +11,7 @@ namespace apollonLaunch
     public class Test
     {
         private IWebDriver driver;
-        
+
         [SetUp]
         public void SetUp()
         {

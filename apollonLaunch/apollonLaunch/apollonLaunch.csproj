@@ -48,9 +48,6 @@
     <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.testdata">
-      <HintPath>..\..\..\NUnit.Framework-3.10.1\bin\net40\nunit.testdata.dll</HintPath>
-    </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="WebDriver, Version=3.11.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.WebDriver.3.11.1\lib\net45\WebDriver.dll</HintPath>
@@ -97,7 +94,7 @@
     <Compile Include="Tests\Muzyka\MuzykaTestFT10M.cs" />
     <Compile Include="Tests\Nykonenko\FT_5M.cs" />
     <Compile Include="Tests\Skuratovskyi\FT_8M.cs" />
-    <Compile Include="Tests\Tishchenko\Test.cs" />
+    <Compile Include="Tests\Tishchenko\FT_23M.cs" />
     <Compile Include="Tests\Tisna\FirstTestCase.cs" />
     <Compile Include="Tests\Tisna\FT_12M.cs" />
     <Compile Include="Tests\Vantukh\VantukhTests.cs" />
