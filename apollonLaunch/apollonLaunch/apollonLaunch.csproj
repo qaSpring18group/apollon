@@ -48,35 +48,60 @@
     <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.testdata">
-      <HintPath>..\..\..\NUnit.Framework-3.10.1\bin\net40\nunit.testdata.dll</HintPath>
-    </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Drawing" />
-    <Reference Include="WebDriver, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.WebDriver.3.11.0\lib\net45\WebDriver.dll</HintPath>
+    <Reference Include="WebDriver, Version=3.11.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.11.1\lib\net45\WebDriver.dll</HintPath>
     </Reference>
-    <Reference Include="WebDriver.Support, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selenium.Support.3.11.0\lib\net45\WebDriver.Support.dll</HintPath>
+    <Reference Include="WebDriver.Support, Version=3.11.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.11.1\lib\net45\WebDriver.Support.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\UsefullMethods.cs" />
+    <Compile Include="Site\Page42.cs" />
+    <Compile Include="Site\AfishaPage.cs" />
+    <Compile Include="Site\AllResoursePage.cs" />
+    <Compile Include="Site\AutoPage.cs" />
+    <Compile Include="Site\AvByPage.cs" />
+    <Compile Include="Site\CinemaPage.cs" />
+    <Compile Include="Site\EpayPage.cs" />
+    <Compile Include="Site\FinancePage.cs" />
+    <Compile Include="Site\HosterbyPage.cs" />
+    <Compile Include="Site\JobsPage.cs" />
+    <Compile Include="Site\KupiPage.cs" />
+    <Compile Include="Site\LadyPage.cs" />
+    <Compile Include="Site\MapsPage.cs" />
+    <Compile Include="Site\NewsPage.cs" />
+    <Compile Include="Site\ProbusinessPage.cs" />
+    <Compile Include="Site\RealtyPage.cs" />
+    <Compile Include="Site\Rebenok.byPage.cs" />
+    <Compile Include="Site\SearchPage.cs" />
+    <Compile Include="Site\SportPage.cs" />
+    <Compile Include="Site\TalksPage.cs" />
+    <Compile Include="Site\TamByPage.cs" />
     <Compile Include="Site\LoginPage.cs" />
     <Compile Include="Site\MainPage.cs" />
+    <Compile Include="Site\TVsetPage.cs" />
+    <Compile Include="Site\WeatherPage.cs" />
+    <Compile Include="Site\YouCanHelpPage.cs" />
     <Compile Include="Tests\Chepil\testChepil.cs" />
-    <Compile Include="Tests\Gaydayenko\test.cs" />
-    <Compile Include="Tests\Ivchenko\IvchenkoTest_FT_7M.cs" />
+    <Compile Include="Tests\Cherednichenko\SearchMainPageTutBy.cs" />
+    <Compile Include="Tests\Gaydayenko\FT_6M.cs" />
+    <Compile Include="Tests\Ivchenko\FT_7M.cs" />
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
+    <Compile Include="Tests\Klymenko\FT_3MK.cs" />
+    <Compile Include="Tests\Kovalenko\FT_13M.cs" />
     <Compile Include="Tests\Lanskix\Start.cs" />
     <Compile Include="Tests\Matiash\FirstTestMatiash.cs" />
-    <Compile Include="Tests\Muzyka\Test1.cs" />
-    <Compile Include="Tests\myzuka\Class1.cs" />
-    <Compile Include="Tests\Nykonenko\test.cs" />
-    <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
-    <Compile Include="Tests\Tishchenko\Test.cs" />
+    <Compile Include="Tests\Muzyka\MuzykaTestFT_10M.cs" />
+    <Compile Include="Tests\Nykonenko\FT_5M.cs" />
+    <Compile Include="Tests\Skuratovskyi\FT_8M.cs" />
+    <Compile Include="Tests\Tishchenko\FT_23M.cs" />
     <Compile Include="Tests\Tisna\FirstTestCase.cs" />
+    <Compile Include="Tests\Tisna\FT_12M.cs" />
     <Compile Include="Tests\Vantukh\VantukhTests.cs" />
-    <Compile Include="Tests\Zaika\TestClass1.cs" />
+    <Compile Include="Tests\Zaika\FT_4M.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\NUnit.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Program.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Properties\AssemblyInfo.cs" />
