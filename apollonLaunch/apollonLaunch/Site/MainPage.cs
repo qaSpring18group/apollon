@@ -49,7 +49,7 @@ namespace apollonLaunch
         internal string WEATHER = "//div[@id='mainmenu']//div[@class='topbarmore-i']//ul//li[@class='topbar__li']//a[@title='Погода']";
         internal string LOGOTOHOME = "//div[@class='outer']//div[@class='logo']//img[@src='https://img.tyt.by/i/logo.png']";
         internal string UNDROPPEDSECTION = "//div[@id='mainmenu']//a[@class='topbar-burger']";
-        internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]/a";
+        internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]//img";
 
 
         //geoTag
