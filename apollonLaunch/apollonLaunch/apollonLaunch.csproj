@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\UsefullMethods.cs" />
-    <Compile Include="Site\42Page.cs" />
+    <Compile Include="Site\Page42.cs" />
     <Compile Include="Site\AfishaPage.cs" />
     <Compile Include="Site\AllResoursePage.cs" />
     <Compile Include="Site\AutoPage.cs" />
@@ -91,7 +91,7 @@
     <Compile Include="Tests\Kovalenko\FT_13M.cs" />
     <Compile Include="Tests\Lanskix\Start.cs" />
     <Compile Include="Tests\Matiash\FirstTestMatiash.cs" />
-    <Compile Include="Tests\Muzyka\MuzykaTestFT10M.cs" />
+    <Compile Include="Tests\Muzyka\MuzykaTestFT_10M.cs" />
     <Compile Include="Tests\Nykonenko\FT_5M.cs" />
     <Compile Include="Tests\Skuratovskyi\FT_8M.cs" />
     <Compile Include="Tests\Tishchenko\FT_23M.cs" />

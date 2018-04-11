@@ -24,6 +24,7 @@ namespace apollonLaunch
 
 
         internal string resourceFinance = "//*[@class='b-topbar-more-list']/li[4]/a";
+        internal string statusFlag = "//div[@id='mainmenu']/div";
         // internal string CloseheaderResourses;
         // internal string hosterbyelement;
         // internal string hosterby;
@@ -35,7 +36,7 @@ namespace apollonLaunch
         //internal string hosterbyelement;
         //internal string hosterby;
 
-		internal string uCanHelpHim = "//*[@id='mainmenu']/div/div/div/div/ul[1]/li[6]/a";
+        internal string uCanHelpHim = "//*[@id='mainmenu']/div/div/div/div/ul[1]/li[6]/a";
 		internal string uCanHelpHimElement = "//*[@id='header']/h1/a";
 
 
