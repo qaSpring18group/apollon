@@ -21,14 +21,11 @@ namespace Pool_5.Tests.Cherednichenko
         [Test]
         public void SearchFormTest()
         {
-            IWebElement searchField = driver.FindElement(By.XPath(mainPage.searchField));
-            IWebElement searchButton = driver.FindElement(By.XPath(mainPage.searchButton));
-            searchField.SendKeys("Новости");
+            IWebElement searchButton = driver.FindElement(By.XPath(mainPage.searchLabel));
             searchButton.Click();
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 1, 0));
-            wait.Until(d => d.FindElement(By.XPath(mainPage.wholeSearchLabel)));
-            System.Threading.Thread.Sleep(1000);
-            IWebElement wholeSearch = driver.FindElement(By.XPath(mainPage.wholeSearchLabel));
+            wait.Until(d => d.FindElement(By.XPath(mainPage.ensureLabelOnPage)));
+            IWebElement wholeSearch = driver.FindElement(By.XPath(mainPage.ensureLabelOnPage));
         }
     }
 }

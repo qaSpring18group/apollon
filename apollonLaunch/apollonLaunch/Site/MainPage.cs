@@ -21,8 +21,8 @@ namespace apollonLaunch
         internal string headerShops = "//*[@id='mainmenu']/ul/li[9]/a";
         internal string headerAutorize = "//*[@id='authorize']/div/a";
         internal string searchField = "//input [@id=\"search_from_str\"]";
-        internal string searchButton = "//input [contains (@name,'search')]";
-        internal string wholeSearchLabel = "//label[contains (@for,'wholeSearch')]";
+        internal string searchLabel = "//a [contains(text(), 'Афиша')]";
+        internal string ensureLabelOnPage = "//a [contains(contains(text(), 'Афиша')]";
 
 
         internal string resourceFinance = "//*[@class='b-topbar-more-list']/li[4]/a";
