@@ -4,11 +4,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
 
-<<<<<<< HEAD
-namespace apollon
-=======
 namespace apollonLauncher
->>>>>>> 1d9fa1e4a54ccfcffb051356bfe6618d35a6e4c4
 {
     [TestFixture]
     class AutotestTUTBY
