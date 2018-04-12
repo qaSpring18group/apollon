@@ -30,7 +30,7 @@ namespace apollonLaunch
             _driver.FindElement(By.XPath(mainPage.WEATHER)).Click();
             _driver.FindElement(By.XPath(mainPage.HOME)).Click();
 
-            Assert.IsTrue(_driver.FindElement(By.XPath(mainPage.UNDROPPEDSECTION)).Displayed);
+            Assert.IsTrue(_driver.FindElement(By.XPath(mainPage.UNDROPPEDSECTION)).Displayed, "Menu 'Разделы' is not droppped.");
         }
     }
 }
