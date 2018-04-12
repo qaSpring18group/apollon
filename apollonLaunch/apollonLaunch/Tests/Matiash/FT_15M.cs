@@ -37,9 +37,13 @@ namespace apollonLaunch
             driver.Url = UsefullMethods.OpenTytbySite;
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 10));
             driver.FindElement(By.XPath(mainPage.headerResourses)).Click();
-            driver.FindElement(By.XPath(mainPage.headerRealty)).Click();
+            driver.FindElement(By.XPath(mainPage.resourceRealty)).Click();
             IWebElement Header = driver.FindElement(By.XPath(realty.HeaderRealty));
             NUnit.Framework.Assert.IsTrue(Header.Displayed);
+            driver.FindElement(By.XPath(mainPage.resourceRealty)).Click();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            IWebElement realtyElement = driver.FindElement(By.XPath(realty.HeaderRealty));
+            NUnit.Framework.Assert.IsTrue(realtyElement.Displayed);
             driver.FindElement(By.XPath(realty.ToMainPage)).Click();
         }
 

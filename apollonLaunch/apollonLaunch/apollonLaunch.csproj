@@ -86,15 +86,18 @@
     <Compile Include="Site\TVsetPage.cs" />
     <Compile Include="Site\WeatherPage.cs" />
     <Compile Include="Site\YouCanHelpPage.cs" />
+    <Compile Include="Site\BasePagePO.cs" />
+    <Compile Include="Site\MainPagePO.cs" />
+    <Compile Include="Site\NewsPagePO.cs" />
     <Compile Include="Tests\Chepil\testChepil.cs" />
     <Compile Include="Tests\Cherednichenko\FT_2.cs" />
-    <Compile Include="Tests\Cherednichenko\AdditionalTest.cs" />
     <Compile Include="Tests\Gaydayenko\FT_6M.cs" />
     <Compile Include="Tests\Ivchenko\FT_7M.cs" />
+    <Compile Include="Tests\Kharytonchyk\Kharytonchyk.cs" />
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
     <Compile Include="Tests\Klymenko\FT_3MK.cs" />
     <Compile Include="Tests\Kovalenko\FT_13M.cs" />
-    <Compile Include="Tests\Lanskix\Start.cs" />
+    <Compile Include="Tests\Lanskix\FT_17M.cs" />
     <Compile Include="Tests\Matiash\FT_15M.cs" />
     <Compile Include="Tests\Muzyka\MuzykaTestFT_10M.cs" />
     <Compile Include="Tests\Nykonenko\FT_5M.cs" />
@@ -108,17 +111,9 @@
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Program.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\SimpleTests.cs" />
+    <Compile Include="Tests\Makarova\FT_9M.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\pom.xml" />
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\BasePage.java" />
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\BigmirLoginPage.java" />
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\BigmirMailBoxPage.java" />
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\GooglePage.java" />
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\GooglePageFound.java" />
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\pages\GoogleQueryPage.java" />
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\tests\GoogleTest.java" />
-    <Content Include="Tests\Makarova\First Tests\TestSelenim\src\test\java\com\gmail\makarola\tests\LoginTest.java" />
     <Content Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\MyFirstTest.csproj" />
     <Content Include="Tests\Zhyrova\SeleniumWebDr\SeleniumWebDr.sln" />
   </ItemGroup>

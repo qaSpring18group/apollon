@@ -29,15 +29,19 @@ namespace apollonLaunch.Tests.Klymenko
         {
             MainPage mainPage = new MainPage();
             TamByPage tamBy = new TamByPage();
+            WebDriverWait waitP = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             driver.Url = UsefullMethods.OpenTytbySite;
             driver.FindElement(By.XPath(mainPage.headerResourses)).Click();
             driver.FindElement(By.XPath(tamBy.externalTamBy)).Click();
             driver.SwitchTo().Window(driver.WindowHandles.Last());
+            waitP.Until(ExpectedConditions.ElementIsVisible(By.XPath(tamBy.TamByElement)));
             driver.Close();
             driver.SwitchTo().Window(driver.WindowHandles.First());
             IWebElement elevent = driver.FindElement(By.XPath(mainPage.CloseheaderResourses));
             Assert.IsTrue(elevent.Displayed);
             elevent.Click();
+            elevent = driver.FindElement(By.XPath(mainPage.headerFinance));
+            Assert.IsTrue(elevent.Displayed);
         }
 
         [TearDown]
