@@ -15,7 +15,7 @@ namespace apollonLaunch
 
     [TestFixture]
 
-    class Pt
+    class FT_17M_test
     {
         private ChromeDriver chrome;
         [SetUp]
@@ -24,19 +24,21 @@ namespace apollonLaunch
             chrome = new ChromeDriver();
         }
         [Test]
-        public void Pt_test()
-        {
-            MainPage mp = new MainPage();
+        public void FT_17M()
+        {          
             chrome.Url = UsefullMethods.OpenTytbySite;
             WebDriverWait wait = new WebDriverWait(chrome, new TimeSpan(0, 0, 5));
-            //chrome.FindElementByXPath(mp.)           
+            MainPage mp = new MainPage();
+            chrome.FindElementByXPath(mp.headerResourses).Click();
+            chrome.FindElementByXPath(mp.headerMaps).Click();
+            chrome.Navigate().Back();          
         }
-
-    
+        
     [TearDown]
+
     public void TearDown()
     {
-        chrome.Quit();
+       chrome.Quit();
     }
 }
 }

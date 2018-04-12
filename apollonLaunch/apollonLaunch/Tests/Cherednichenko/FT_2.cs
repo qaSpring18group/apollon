@@ -2,10 +2,9 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-using apollonLaunch;
 using OpenQA.Selenium.Support.UI;
 
-namespace TestGoogle
+namespace apollonLaunch
 {
     class FT_2
     {
