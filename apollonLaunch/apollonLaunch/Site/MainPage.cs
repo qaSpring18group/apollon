@@ -23,7 +23,7 @@ namespace apollonLaunch
         internal string searchField = "//input [@id=\"search_from_str\"]";
         internal string searchLabel = "//a [contains(text(), 'Афиша')]";
         internal string ensureLabelOnPage = "//a [contains(contains(text(), 'Афиша')]";
-
+        internal string headerMaps = "//*[@id='mainmenu']/div/div/div/div/ul[2]/li[9]/a";
 
         internal string resourceFinance = "//*[@class='b-topbar-more-list']/li[4]/a";
         internal string statusFlag = "//div[@id='mainmenu']/div";
