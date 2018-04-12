@@ -45,7 +45,7 @@ namespace apollonLaunch
 
         internal string SECTION = "//div[@id='mainmenu']//ul//li[@class='topbar__li b-topbar-aside']//a[@class='topbar-burger']";
         internal string WEATHER = "//div[@id='mainmenu']//div[@class='topbarmore-i']//ul//li[@class='topbar__li']//a[@title='Погода']";
-        internal string HOME = "//div[@id='mainmenu']//div[@class='b-topbar-h']//ul//li[@class^='topbar__li']//a[@title='TUT.BY']";
+        internal string HOME = "//div[@id='mainmenu']//div[@class='b-topbar-h']//ul//li//a[@title='TUT.BY']";
         internal string UNDROPPEDSECTION = "//div[@id='mainmenu']//a[@class='topbar-burger']";
         internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]/a";
 
