@@ -105,7 +105,7 @@
     <Compile Include="Site\NewsPage.cs" />
     <Compile Include="Site\ProbusinessPage.cs" />
     <Compile Include="Site\RealtyPage.cs" />
-    <Compile Include="Site\Rebenok.byPage.cs" />
+    <Compile Include="Site\Rebenok_byPage.cs" />
     <Compile Include="Site\SearchPage.cs" />
     <Compile Include="Site\SportPage.cs" />
     <Compile Include="Site\TalksPage.cs" />
