@@ -94,6 +94,7 @@
     <Compile Include="Tests\Cherednichenko\AdditionalTest.cs" />
     <Compile Include="Tests\Gaydayenko\FT_6M.cs" />
     <Compile Include="Tests\Ivchenko\FT_7M.cs" />
+    <Compile Include="Tests\Kharytonchyk\Autotest.cs" />
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
     <Compile Include="Tests\Klymenko\FT_3MK.cs" />
     <Compile Include="Tests\Kovalenko\FT_13M.cs" />
@@ -111,7 +112,7 @@
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Program.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\Zhyrova\SeleniumWebDr\SimpleTests.cs" />
-    <Compile Include="Tests\Makarova\FT_9M.cs"/>
+    <Compile Include="Tests\Makarova\FT_9M.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Tests\Zhyrova\SeleniumWebDr\MyFirstTest\MyFirstTest.csproj" />
