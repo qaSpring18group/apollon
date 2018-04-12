@@ -19,7 +19,7 @@ namespace AutoTest
         }
 
         [Test]
-        public void Test()
+         public void Test()
         {
             driver.Url = "https://www.google.com/";
             IWebElement element = driver.FindElement(By.Name("q"));
