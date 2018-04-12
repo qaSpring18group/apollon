@@ -19,10 +19,13 @@ namespace apollonLaunch
         internal string headerWeather = "//*[@id='mainmenu']/ul/li[7]/a";
         internal string headerTVset = "//*[@id='mainmenu']/ul/li[8]/a";
         internal string headerShops = "//*[@id='mainmenu']/ul/li[9]/a";
+        internal string headerRealty = "//*[@id='mainmenu']/div/div/div/div/ul[2]/li[7]/a";
         internal string headerAutorize = "//*[@id='authorize']/div/a";
         internal string searchField = "//input [@id=\"search_from_str\"]";
-        internal string searchLabel = "//a [contains(text(), 'Афиша')]";
+        internal string searchButton = "//input [contains (@name,'search')]";
+        internal string afishaLabel = "//a [contains(text(), 'Афиша')]";
         internal string ensureLabelOnPage = "//a [contains(contains(text(), 'Афиша')]";
+        internal string wholeSearch = "//input [contains (@name,'search')]";
 
 
         internal string resourceFinance = "//*[@class='b-topbar-more-list']/li[4]/a";
@@ -47,7 +50,7 @@ namespace apollonLaunch
         internal string WEATHER = "//div[@id='mainmenu']//div[@class='topbarmore-i']//ul//li[@class='topbar__li']//a[@title='Погода']";
         internal string LOGOTOHOME = "//div[@class='outer']//div[@class='logo']//img[@src='https://img.tyt.by/i/logo.png']";
         internal string UNDROPPEDSECTION = "//div[@id='mainmenu']//a[@class='topbar-burger']";
-        internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]/a";
+        internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]//img";
 
 
         //geoTag
