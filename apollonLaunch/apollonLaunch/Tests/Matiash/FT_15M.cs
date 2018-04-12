@@ -35,15 +35,15 @@ namespace apollonLaunch
             MainPage mainPage = new MainPage();
             RealtyPage realty = new RealtyPage();
             driver.Url = UsefullMethods.OpenTytbySite;
-            WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 10));
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(120);
             driver.FindElement(By.XPath(mainPage.headerResourses)).Click();
             driver.FindElement(By.XPath(mainPage.resourceRealty)).Click();
             IWebElement Header = driver.FindElement(By.XPath(realty.HeaderRealty));
             NUnit.Framework.Assert.IsTrue(Header.Displayed);
             driver.FindElement(By.XPath(mainPage.resourceRealty)).Click();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(120);
             IWebElement realtyElement = driver.FindElement(By.XPath(realty.HeaderRealty));
-            NUnit.Framework.Assert.IsTrue(realtyElement.Displayed);
+            NUnit.Framework.Assert.IsTrue(realtyElement.Displayed, "Header Realty is not displayed");
             driver.FindElement(By.XPath(realty.ToMainPage)).Click();
         }
 
