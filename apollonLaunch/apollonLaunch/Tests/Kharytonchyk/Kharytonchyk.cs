@@ -8,7 +8,7 @@ namespace apollonLaunch
     class Kharytonchyk
     {
         private static IWebDriver _driver = new ChromeDriver();
-        MainPage mainPage = MainPage();
+        MainPage mainPage = new MainPage();
 
         [SetUp]
         public void SetUp()
