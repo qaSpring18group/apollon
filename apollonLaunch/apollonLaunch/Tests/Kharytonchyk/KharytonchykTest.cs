@@ -5,11 +5,11 @@ using OpenQA.Selenium.Chrome;
 namespace apollonLaunch
 {
     [TestFixture]
-    class Kharytonchyk
+    class KharytonchykTest
     {
         private static IWebDriver _driver = new ChromeDriver();
         MainPage mainPage = new MainPage();
-
+        
         [SetUp]
         public void SetUp()
         {
@@ -26,7 +26,7 @@ namespace apollonLaunch
         [Test]
         public void FT_11M()
         {
-            _driver.FindElement(By.XPath(mainPage.SECTION)).Click();
+            _driver.FindElement(By.XPath(mainPage.headerResourses)).Click();
             _driver.FindElement(By.XPath(mainPage.WEATHER)).Click();
             _driver.FindElement(By.XPath(mainPage.HOME)).Click();
 

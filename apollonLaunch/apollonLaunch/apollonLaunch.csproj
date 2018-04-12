@@ -93,7 +93,7 @@
     <Compile Include="Tests\Cherednichenko\FT_2.cs" />
     <Compile Include="Tests\Gaydayenko\FT_6M.cs" />
     <Compile Include="Tests\Ivchenko\FT_7M.cs" />
-    <Compile Include="Tests\Kharytonchyk\Kharytonchyk.cs" />
+    <Compile Include="Tests\Kharytonchyk\KharytonchykTest.cs" />
     <Compile Include="Tests\Klymenko\ChromeTest.cs" />
     <Compile Include="Tests\Klymenko\FT_3MK.cs" />
     <Compile Include="Tests\Kovalenko\FT_13M.cs" />
