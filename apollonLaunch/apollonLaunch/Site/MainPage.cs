@@ -25,6 +25,8 @@ namespace apollonLaunch
         internal string ensureLabelOnPage = "//a [contains(contains(text(), 'Афиша')]";
         internal string headerMaps = "//*[@id='mainmenu']/div/div/div/div/ul[2]/li[9]/a";
 
+
+        internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]/a";
         internal string resourceFinance = "//*[@class='b-topbar-more-list']/li[4]/a";
         internal string statusFlag = "//div[@id='mainmenu']/div";
         // internal string CloseheaderResourses;
@@ -47,7 +49,7 @@ namespace apollonLaunch
         internal string WEATHER = "//div[@id='mainmenu']//div[@class='topbarmore-i']//ul//li[@class='topbar__li']//a[@title='Погода']";
         internal string HOME = "//div[@id='mainmenu']//div[@class='b-topbar-h']//ul//li//a[@title='TUT.BY']";
         internal string UNDROPPEDSECTION = "//div[@id='mainmenu']//a[@class='topbar-burger']";
-        internal string resourseCinema = "//*[@class='b-topbar-more-list']/li[15]/a";
+        
 
 
         //geoTag

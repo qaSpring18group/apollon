@@ -28,11 +28,10 @@ namespace apollonLaunch
             driver.Url = UsefullMethods.OpenTytbySite;
             driver.FindElement(By.XPath(mp.headerResourses)).Click();
             driver.FindElement(By.XPath(mp.resourseCinema)).Click();
-            driver.FindElement(By.XPath(cp.TitlePage));
-            Assert.That(driver, Is.True);
+            Assert.IsTrue(driver.FindElement(By.XPath(cp.TitlePage)).Displayed);
             driver.FindElement(By.XPath(cp.BackToMainPage)).Click();
         }
-        [TearDown]
+       [TearDown]
         public void TearDown()
         {
             driver.Quit();
