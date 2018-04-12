@@ -19,8 +19,8 @@ namespace apollonLaunch
 {
     class FT_15M
     {
-        private IWebDriver driver;
-
+        private ChromeDriver driver;
+       
         [SetUp]
         public void Start()
         {
@@ -30,17 +30,16 @@ namespace apollonLaunch
         }
 
         [Test]
-        public void Test()
+        public void FT_15M_Test()
         {
             MainPage mainPage = new MainPage();
             RealtyPage realty = new RealtyPage();
             driver.Url = UsefullMethods.OpenTytbySite;
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 0, 10));
             driver.FindElement(By.XPath(mainPage.headerResourses)).Click();
             driver.FindElement(By.XPath(mainPage.headerRealty)).Click();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            IWebElement realtyElement = driver.FindElement(By.XPath(realty.HeaderRealty));
-            NUnit.Framework.Assert.IsTrue(realtyElement.Displayed);
+            IWebElement Header = driver.FindElement(By.XPath(realty.HeaderRealty));
+            NUnit.Framework.Assert.IsTrue(Header.Displayed);
             driver.FindElement(By.XPath(realty.ToMainPage)).Click();
         }
 

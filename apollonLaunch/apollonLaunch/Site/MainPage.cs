@@ -19,7 +19,7 @@ namespace apollonLaunch
         internal string headerWeather = "//*[@id='mainmenu']/ul/li[7]/a";
         internal string headerTVset = "//*[@id='mainmenu']/ul/li[8]/a";
         internal string headerShops = "//*[@id='mainmenu']/ul/li[9]/a";
-        internal string headerRealty = "//*[@id='mainmenu']/div/div/div/div/ul[2]/li[7]/a";
+        internal string headerRealty = "//ul[@class='b-topbar-more-list']/li[7]/a";
         internal string headerAutorize = "//*[@id='authorize']/div/a";
         internal string searchField = "//input [@id=\"search_from_str\"]";
         internal string searchButton = "//input [contains (@name,'search')]";
