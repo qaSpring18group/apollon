@@ -8,5 +8,6 @@ namespace apollonLaunch.Site
            internal string NAME OF Xpath= "//X Path";
            Show more examples in Stie>LoginPage/ MainPage/ CinemaPage
         */
+        internal string headerAfishaElement = "//*[@id='b-link']/a";
     }
 }

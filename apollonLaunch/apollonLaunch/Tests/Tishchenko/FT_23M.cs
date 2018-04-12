@@ -8,19 +8,19 @@ using OpenQA.Selenium.Support.UI;
 
 namespace apollonLaunch
 {
-    public class Test
+    public class FT_23M
     {
         private IWebDriver driver;
-        
+
         [SetUp]
         public void SetUp()
         {
             driver = new ChromeDriver();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(4);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
 
         [Test]
-        public void CheckWorkPageOnlineCinema()
+        public void FT_23M_test()
         {
             MainPage mp = new MainPage();
             Site.CinemaPage cp = new Site.CinemaPage();

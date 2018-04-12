@@ -5,9 +5,7 @@ namespace apollonLaunch.Site
 {
     class RealtyPage
     {
-        /*Example:
-           internal string NAME OF Xpath= "//X Path";
-           Show more examples in Stie>LoginPage/ MainPage/ CinemaPage
-        */
+        internal string ToMainPage = "//*[@id='mainmenu']/ul/li[2]/a";
+        internal string HeaderRealty = "//div[4]/div/div/div[2]/div[1]/div[2]/div/div[1]/a[1]";
     }
 }
