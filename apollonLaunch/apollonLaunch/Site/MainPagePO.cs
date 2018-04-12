@@ -11,7 +11,7 @@ namespace apollonLaunch.Site
     public class MainPagePO : BasePagePO
     {
 
-        private IWebDriver driver;
+     //   private IWebDriver driver;
 
         public MainPagePO(IWebDriver driver):base(driver)
         {

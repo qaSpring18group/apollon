@@ -91,7 +91,6 @@
     <Compile Include="Site\NewsPagePO.cs" />
     <Compile Include="Tests\Chepil\testChepil.cs" />
     <Compile Include="Tests\Cherednichenko\FT_2.cs" />
-    <Compile Include="Tests\Cherednichenko\AdditionalTest.cs" />
     <Compile Include="Tests\Gaydayenko\FT_6M.cs" />
     <Compile Include="Tests\Ivchenko\FT_7M.cs" />
     <Compile Include="Tests\Kharytonchyk\Kharytonchyk.cs" />

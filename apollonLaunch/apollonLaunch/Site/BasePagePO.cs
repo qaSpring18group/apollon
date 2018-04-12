@@ -10,7 +10,9 @@ namespace apollonLaunch.Site
         public  BasePagePO(IWebDriver driver)
         {
             this.driver = driver;
+#pragma warning disable CS0618 // Тип или член устарел
             PageFactory.InitElements(driver, this);
+#pragma warning restore CS0618 // Тип или член устарел
         }
     }
 }

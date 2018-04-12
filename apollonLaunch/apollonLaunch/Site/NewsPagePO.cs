@@ -11,7 +11,7 @@ namespace apollonLaunch.Site
 {
     class NewsPagePO : BasePagePO
     {
-        private IWebDriver driver;
+      //  private IWebDriver driver;
 
         public NewsPagePO(IWebDriver driver): base(driver)
         {

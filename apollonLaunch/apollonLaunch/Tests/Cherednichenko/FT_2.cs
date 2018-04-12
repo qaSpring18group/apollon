@@ -21,12 +21,12 @@ namespace apollonLaunch
         public void SearchFormTest()
         {
             IWebElement searchField = driver.FindElement(By.XPath(mainPage.searchField));
-            IWebElement searchButton = driver.FindElement(By.XPath(mainPage.searchButton));
+           // IWebElement searchButton = driver.FindElement(By.XPath(mainPage.searchButton));
             searchField.SendKeys("Новости");
-            searchButton.Click();
+           // searchButton.Click();
             WebDriverWait wait = new WebDriverWait(driver, new TimeSpan(0, 1, 0));
-            wait.Until(d => d.FindElement(By.XPath(mainPage.wholeSearch)));
-            IWebElement wholeSearch = driver.FindElement(By.XPath(mainPage.wholeSearch));
+          //  wait.Until(d => d.FindElement(By.XPath(mainPage.wholeSearch)));
+          //  IWebElement wholeSearch = driver.FindElement(By.XPath(mainPage.wholeSearch));
         }
     }
 }
