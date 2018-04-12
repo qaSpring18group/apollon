@@ -11,7 +11,7 @@ namespace AutoTest
         IWebDriver driver;
 
         [SetUp]
-        public void FT_23M_test()
+        public void SetUp()
         {
             driver = new ChromeDriver("D:\\chromedriver_win32");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);

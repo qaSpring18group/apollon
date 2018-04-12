@@ -11,7 +11,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using apollonLaunch;
 
 namespace apollonLaunch
-
 {
 
     [TestFixture]
